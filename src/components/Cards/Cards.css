@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+.ParentDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.frontCard {
+    left: 0;
+  bottom: -40%;
+  width: 90%;
+  position: absolute;
+  padding: 1rem;
+  background: linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
+  display: grid;
+  grid-template-rows: 3fr 1fr 1fr;
+  gap: 10px;
+  border-radius: 6px;
+}
+.frontCardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.frontCard h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  align-self: center;
+}
+.frontCardFooter p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Space Grotesk;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11.48px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: left;
+}
+.backCard {
+    width: 90%;
+  background: linear-gradient(168.73deg, #ffffff 5%, #d2d3d9 91.69%);
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+.backHeader {
+  background-color: rgba(47, 47, 47, 1);
+}
+.BackMain {
+  background-color: rgba(173, 181, 190, 1);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 1.875rem;
+  margin-right: 1.875rem;
+  border-radius: 6px;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.86px;
+  letter-spacing: 2px;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  padding-right: 1rem !important;
+}
+.backFooter {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
